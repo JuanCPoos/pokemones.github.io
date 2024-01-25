@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemones Hover</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <main>
+        
+        <div class="pokemones">            
+            <img class="pok1" src="https://i.blogs.es/6f1593/pikachu/450_1000.webp" alt="pikachu" onclick="zoomAndCenter(this)">
+            <img class="pok2" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" alt="pokedex" onclick="zoomAndCenter(this)">
+            <img class="pok3" src="https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2016/07/18/5fa2d5b43a510.png" alt="" onclick="zoomAndCenter(this)">
+            <img class="pok4" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png" alt="espokemon" onclick="zoomAndCenter(this)">
+            <img class="pok5" src="https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/03/288149-origen-todos-nombres-pokemon-i.png" alt="pokemon" onclick="zoomAndCenter(this)">
+        </div>
+    </main>
+    <script>
+        function zoomAndCenter(element){
+            element.classList.toggle('zoomed');
+        }
+    </script>
+</body>
+</html>
