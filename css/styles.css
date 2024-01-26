@@ -15,6 +15,7 @@ body{
     /*para centrar en pantalla*/
 }
 .pokemones{
+    position: relative;
     width: 850px;
     height: 250px;
     display: flex;
@@ -27,14 +28,31 @@ body{
     
 }
 
-img{
+img{    
     width:27%;
+    
+    
 }
 img:hover{
     transition: transform 0.3s ease-in-out;
-    transform: translate(0, 10px) scale(1.1);
+    transform: translate(0, 10px) scale(1.4);
     
 }
-img.zoomed{
-    transform: translate(-50%, -50%) scale(2);
+/* img.zoomed{
+    transform: translate(-0%, -0%) scale(4);
+} */
+.pok1.zoomed{
+    transform: translate(115%, -0%) scale(4);
+}
+.pok2.zoomed{
+    transform: translate(90%, -0%) scale(4);    
+}
+.pok3.zoomed{
+    transform: translate(50%, -0%) scale(4);    
+}
+.pok4.zoomed{
+    transform: translate(-90%, -0%) scale(4);    
+}
+.pok5.zoomed{
+    transform: translate(-115%, -0%) scale(4);    
 }
